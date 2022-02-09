@@ -1,8 +1,5 @@
 # Tehtävä L07T02
 
-from unicodedata import name
-
-
 class Human:
     name = ""
     age = 0
