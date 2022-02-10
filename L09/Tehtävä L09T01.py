@@ -10,7 +10,7 @@ while isValueNull == False:
     else:
         isValueNull = True
 
-filename = "testi.txt"
+filename = "L09T01.txt"
 file = open(filename, "w")
 for x in thislist:
     file.write(x + "\n")
