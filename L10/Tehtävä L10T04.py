@@ -16,4 +16,4 @@ try:
 except IndexError:
     print("List index out of range.")
 except:
-    print("Something else went wrong,")
+    print("Something else went wrong.")
