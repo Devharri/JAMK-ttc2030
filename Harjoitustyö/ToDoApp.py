@@ -8,7 +8,7 @@
 import json
 ### Define global variables here
 listOfDictionaries = []                                 # List of dictionaries
-filename = "Harjoitustyö/database.json"                 # Path name of the JSON -file
+filename = "Harjoitustyö\database.json"                 # Path name of the JSON -file
 ### Define functions here
 def loadNotes():
     # Load notes from a JSON-file function
@@ -109,9 +109,7 @@ def deleteNotes():
             try:
                 # Check if input is a integer
                 val = int(deleteId)
-            except ValueError:
-                print("That's not an int!\n")
-            finally:
+
                 # if value is integer, check if it is valid regarding to a list 
                 if val > (len(listOfDictionaries)-1):
                     print("Value is too high!\n")
@@ -119,6 +117,9 @@ def deleteNotes():
                     print("Value is too small!\n")
                 else:
                     isInputValid = True
+            except ValueError:
+                print("That's not an int!\n")
+
         # Delete selected id from a list of dictionaries
         listOfDictionaries.pop(int(deleteId))
         # save updated list of dictionaries to a JSON-file as an array of objects
