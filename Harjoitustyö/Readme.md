@@ -12,4 +12,3 @@ Mitä harjoitustyö sisältää:
 9. Ulkoisen kirjaston 'import json' käyttämisen
 10. Käyttäjän syötteiden tarkistamisia, jottei ohjelma menisi häiriöön
 11. https://asciiflow.com/ tehtiin ASCII-logo
-12. Pythonin ja JSON-tiedostojen opiskelu tehtiin omalla ajalla Googlen kautta
